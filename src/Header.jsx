@@ -6,7 +6,7 @@ function Header() {
       <div className="left">
         <p>
           {" "}
-          <b>BR</b>
+          <b>BR </b> Architects
         </p>
       </div>
       <div className="right"></div>
