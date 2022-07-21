@@ -17,3 +17,74 @@ Header {
     list-style: none;
   }
 }
+
+/*  ---------------------------------------------------------*/
+
+.baner {
+  img {
+    width: 100%;
+  }
+}
+
+/*------------------------------------*/
+
+.projects {
+  //border: 1px solid red;
+  h1 {
+    border-bottom: 1px solid rgb(204, 193, 193);
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+  }
+
+  .images {
+    //border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  img {
+    width: 23%;
+    margin-bottom: 2%;
+  }
+}
+
+/*------------------*/
+.about {
+  padding: 2%;
+  //border: 1px red solid;
+  h1 {
+    border-bottom: 1px solid rgb(223, 223, 223);
+    margin: 3% 0;
+    padding: 2% 0;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    span {
+      width: 24%;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.5;
+      img {
+        width: 100%;
+      }
+      h2 {
+        font-size: 1rem;
+      }
+      h3 {
+        font-size: 1.1rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+      button {
+        border: none;
+        background-color: rgb(230, 230, 230);
+        padding: 3%;
+        margin-top: 3%;
+      }
+    }
+  }
+}
